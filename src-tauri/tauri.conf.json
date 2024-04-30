@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Thinking",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   "tauri": {
     "allowlist": {
@@ -45,6 +45,7 @@
       "shortDescription": "",
       "targets": [
         "dmg",
+        "nsis",
         "updater"
       ],
       "windows": {
@@ -59,7 +60,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/liamlife/thinking/releases/download/v0.1.6/latest.json"
+        "https://github.com/liamlife/thinking/releases/download/v0.1.7/latest.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEFBMTUyOEI5MjhBQzRCNTcKUldSWFM2d291U2dWcXNlaUpHWURhaFRkRloxWm9rM0MwN01ua2Q3dy9FeTBDa3lya2l6VitpMkwK"
