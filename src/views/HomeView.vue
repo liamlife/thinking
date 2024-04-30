@@ -43,7 +43,7 @@ onMounted(async () => {
 
 <template>
   <main>
-    <h1>Thinking</h1>
+    <h1>Thinking new verison.</h1>
     <h3>版本：{{ version }}</h3>
     <div>
       <h2> counter</h2>
